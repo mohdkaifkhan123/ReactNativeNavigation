@@ -29,7 +29,7 @@ function User({userObject}) {
   );
 }
 
-export default function App() {
+export default function HomeScreen() {
   const [userId, setUserId] = useState(1);
   const [user, setUser] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
