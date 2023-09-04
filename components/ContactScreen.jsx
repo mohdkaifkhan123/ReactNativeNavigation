@@ -9,7 +9,7 @@ import {
   FlatList,
 } from 'react-native';
 
-const App = () => {
+const ContactScreen = () => {
   const [data, setData] = useState([]);
   const [isLoading, setLoading] = useState(true);
 
@@ -106,4 +106,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default ContactScreen;
