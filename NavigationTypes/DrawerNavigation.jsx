@@ -4,9 +4,9 @@ import { NavigationContainer } from "@react-navigation/native";
 import "react-native-gesture-handler"; 
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import { About, Home, Contact, Navigation } from "../assets/SVG";
-import HomeScreen from "../Component/HomeScreen";
-import AboutScreen from "../Component/AboutScreen";
-import ContactScreen from "../Component/ContactScreen";
+import HomeScreen from "../components/HomeScreen";
+import AboutScreen from "../components/AboutScreen";
+import ContactScreen from "../components/ContactScreen";
 import StackNavigation from "./StackNavigation";
 const Drawer = createDrawerNavigator();
 export default function DrawerNavigtaion() {
