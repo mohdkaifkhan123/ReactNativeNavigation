@@ -7,7 +7,6 @@ import {
   ScrollView,
   View,
   Image,
-  Platform,
   TouchableHighlight,
 } from 'react-native';
 

@@ -39,13 +39,13 @@ const ContactScreen = () => {
         keyExtractor={item => item.id}
       />
 
-      {isLoading && (
+      {/* {isLoading && (
         <TouchableOpacity
           style={styles.input}
           onPress={getDataUsingSimpleGetCall}>
           <Text style={styles.text}>Click to get list of all mentors</Text>
         </TouchableOpacity>
-      )}
+      )} */}
 
       <StatusBar />
     </View>
@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
     height: 150,
     borderRadius: 8,
     elevation: 4,
-    backgroundColor: 'orange',
+    backgroundColor: 'grey',
     shadowColor: 'black',
     shadowOpacity: 0.25,
     shadowOffset: {
@@ -68,27 +68,27 @@ const styles = StyleSheet.create({
     },
     shadowRadius: 8,
   },
-  input: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
-    marginTop: 280,
-    paddingHorizontal: 10,
-    marginLeft: 40,
-    marginRight: 42,
-    borderRadius: 20,
-    shadowColor: '#000',
-    height: 40,
-    backgroundColor: 'white',
-    shadowOffset: {
-      width: 0,
-      height: 0.5,
-    },
-    shadowOpacity: 0.25,
-    elevation: 5,
-    fontSize: 14,
-    fontWeight: 'bold',
-  },
+  // input: {
+  //   flexDirection: 'row',
+  //   alignItems: 'center',
+  //   justifyContent: 'center',
+  //   marginTop: 280,
+  //   paddingHorizontal: 10,
+  //   marginLeft: 40,
+  //   marginRight: 42,
+  //   borderRadius: 20,
+  //   shadowColor: '#000',
+  //   height: 40,
+  //   backgroundColor: 'white',
+  //   shadowOffset: {
+  //     width: 0,
+  //     height: 0.5,
+  //   },
+  //   shadowOpacity: 0.25,
+  //   elevation: 5,
+  //   fontSize: 14,
+  //   fontWeight: 'bold',
+  // },
   innerContainer: {
     flex: 1,
     borderRadius: 8,
