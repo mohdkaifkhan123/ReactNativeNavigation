@@ -1,7 +1,7 @@
 import React from 'react';
 import {Provider} from 'react-redux';
-import store from './Redux/Store';
-import TabNav from './Tab_Navigation/TabNav';
+import store from './src/Redux/Store';
+import TabNav from './src/Tab_Navigation/TabNav';
 
 const App = () => {
   return (
